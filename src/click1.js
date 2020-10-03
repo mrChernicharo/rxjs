@@ -1,12 +1,6 @@
 import * as rx from 'rxjs';
 import { delay, map, tap, take, takeLast, takeUntil } from 'rxjs/operators';
 
-function print(val) {
-  let el = document.createElement('p');
-  el.innerText = val;
-  document.body.appendChild(el);
-}
-
 const domClick$ = rx.fromEvent(document, 'click').pipe(
   take(13),
   tap((event) => {
