@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/promise1.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/map1.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/promise1.js":
-/*!*************************!*\
-  !*** ./src/promise1.js ***!
-  \*************************/
+/***/ "./src/map1.js":
+/*!*********************!*\
+  !*** ./src/map1.js ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/promise1.js?");
+eval("\n\n//# sourceURL=webpack:///./src/map1.js?");
 
 /***/ })
 
